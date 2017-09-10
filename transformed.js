@@ -23078,13 +23078,13 @@ module.exports = ReactDOMInvalidARIAHook;
 
 
 
-const cipherAudio = new Audio('./app/music/cipher2.mp3');
-const duckAudio = new Audio('./app/music/duck.mp3'); //Used for seal's habitat, not duck battle
-//const frostAudio = new Audio ('../app/music/frost.mp3');
-//const beeAudio = new Audio('../app/music/happybee.mp3');
-const shantyAudio = new Audio('./app/music/shanty.mp3');
-const ghostAudio = new Audio('./app/music/ghost.mp3');
-const battleAudio = new Audio('./app/music/movement.mp3');
+const cipherAudio = new Audio('app/music/cipher2.mp3');
+const duckAudio = new Audio('app/music/duck.mp3'); //Used for seal's habitat, not duck battle
+//const frostAudio = new Audio ('app/music/frost.mp3');
+//const beeAudio = new Audio('app/music/happybee.mp3');
+const shantyAudio = new Audio('app/music/shanty.mp3');
+const ghostAudio = new Audio('app/music/ghost.mp3');
+const battleAudio = new Audio('app/music/movement.mp3');
 
 var currentMusic = 0;
 
@@ -25216,7 +25216,7 @@ class Scene extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 		super(props);
 		console.log(this.props.children);
 		this.state = {
-			dialogue: "You wake up in cold sweat.`Was it all a dream...?`You look around.`" + "`Every one is staying still, as if frozen by time.``To be continued...",
+			dialogue: "You wake up in cold sweat.`Was it all a dream...?`You look around.`" + "`Everyone is staying still, as if frozen by time.``To be continued...",
 			showDialogue: true,
 			cursorStyle: {
 				cursor: "default"
