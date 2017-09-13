@@ -24490,7 +24490,7 @@ const msgBox = {
 	width: "80vw",
 	height: "7.5vw",
 	padding: "auto",
-	paddingBottom: "-35px",
+	paddingBottom: "-35px", 
 	left: "calc(50% - 40vw)",
 	bottom: 25,
 	fontSize: "2.5vw",
