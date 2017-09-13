@@ -24502,7 +24502,7 @@ const msgBox = {
 
 const barStyle = {
 	position: "absolute",
-	height: "10%",
+	height: "12%",
 	width: "100%",
 	backgroundColor: "black",
 	display: "block"
