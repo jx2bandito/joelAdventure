@@ -2104,7 +2104,6 @@ class Dialogue extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 		var listIntervals = [];
 
 		var loopDialogue = () => {
-			console.log(this.state.showClick);
 			this.state.updating = true;
 			if (i == splitDialogue.length) {
 				var x = 0;
@@ -2118,7 +2117,6 @@ class Dialogue extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 				this.state.showClick = {
 					visibility: "initial"
 				};
-				console.log(this.state.showClick);
 				return false;
 			} else {
 				let currentChar = splitDialogue[i];
@@ -25245,7 +25243,6 @@ class Scene extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 
 	constructor(props) {
 		super(props);
-		console.log(this.props.children);
 		this.state = {
 			dialogue: "You wake up in cold sweat.`Was it all a dream...?`You look around.`" + "`Everyone is staying still, as if frozen by time.``To be continued...",
 			showDialogue: true,
